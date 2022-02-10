@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
+import Footer from './Footer';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
@@ -33,6 +34,8 @@ export default function WebsiteContainer() {
         <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
         {/* Here we are calling the renderPage method which will return a component  */}
         {renderPage()}
+        <Footer/>
       </div>
+      
     );
   }

@@ -1,9 +1,11 @@
 import React from 'react';
+import './styles/NavTabs.css';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
+    
     <ul className="nav nav-tabs">
-      
+    <h1>Gabriel Guerin</h1>  
       <li className="nav-item">
         <a
           href="#about"
