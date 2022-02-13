@@ -1,0 +1,106 @@
+h1 {
+    font-size: 100rem;
+    color: white;
+    margin: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.site {
+    height: 100%
+}
+
+.header{
+    background-color: purple;
+    display: flex;
+    align-items: space-between;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 0 30%;
+}
+
+.site-links, .nav-item, .project-card a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.site-links, .project-card a:hover{
+    color: lightskyblue;
+}
+
+.about, .resume, .contact, .portfolio {
+    background-color: rgb(94, 94, 94);
+    padding: 30px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height:  */
+}
+
+.about-title {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about img {
+    width: 25%;
+    height: 25%;
+    border: 5px solid purple;
+    margin: 40px 20px;
+}
+
+.about p {
+    margin: 40px 20px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    width: 60%;
+    color: white
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 0 0 80%;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 30%;
+    /* height: 300px; */
+    /* justify-content: flex-end; */
+    align-items: center;
+    border: 5px solid purple;
+    margin: 30px; 
+    padding: 10px;
+}
+
+.footer {
+    background-color: purple;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding: 20p; */
+    position: relative;
+    height: 100px;
+    width: 100%;
+    bottom: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

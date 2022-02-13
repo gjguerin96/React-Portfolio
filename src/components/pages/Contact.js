@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div>
+    <div class="contact">
       <h1>Contact Me</h1>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
